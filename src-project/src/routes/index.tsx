@@ -5,13 +5,13 @@ import babyImg from "@/assets/recem-nascido.jpg";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Portfólio | Enfermagem Obstétrica e Plano de Parto" },
+      { title: "Portfólio | Enfermeira Vanessa e Plano de Parto" },
       {
         name: "description",
         content:
-          "Portfólio de cuidados em enfermagem obstétrica: pré-natal, plano de parto, acompanhamento do trabalho de parto, pós-parto e cuidados com o recém-nascido.",
+          "Portfólio de consultoria em saude Marterna : pré-natal, plano de parto, acompanhamento do trabalho de parto, pós-parto e cuidados com o recém-nascido.",
       },
-      { property: "og:title", content: "Portfólio | Enfermagem Obstétrica e Plano de Parto" },
+      { property: "og:title", content: "Portfólio | Enfermeira Vanessa e Plano de Parto" },
       {
         property: "og:description",
         content:
@@ -31,7 +31,7 @@ const sections = [
     title: "Assistência Pré-Natal",
     lead: "Acolhimento desde as primeiras semanas, com escuta e informação clara.",
     items: [
-      "Consulta de enfermagem obstétrica",
+      "consultoria em saude Marterna",
       "Aferição da pressão arterial materna e ausculta dos batimentos cardíacos fetais",
       "Orientações sobre imunização durante a gestação",
       "Encaminhamento a profissionais especializados em amamentação, quando necessário",
@@ -89,7 +89,7 @@ function Index() {
     <div className="min-h-screen bg-background text-foreground">
       <header className="sticky top-0 z-20 border-b border-border/60 bg-background/85 backdrop-blur">
         <div className="mx-auto flex max-w-5xl items-center justify-between px-6 py-4">
-          <span className="font-display text-lg tracking-tight">Enfermagem Obstétrica</span>
+          <span className="font-display text-lg tracking-tight">Enfermeira Vanessa</span>
           <nav className="hidden gap-6 text-sm text-muted-foreground md:flex">
             {sections.map((s) => (
               <a key={s.id} href={`#${s.id}`} className="transition-colors hover:text-primary">
@@ -184,7 +184,7 @@ function Index() {
       </main>
 
       <footer className="border-t border-border/60 py-10 text-center text-sm text-muted-foreground">
-        Enfermagem Obstétrica · Planejamento de parto e acompanhamento perinatal
+        Enfermeira Vanessa COREM - 915901 · Planejamento de parto e acompanhamento perinatal
       </footer>
     </div>
   );
